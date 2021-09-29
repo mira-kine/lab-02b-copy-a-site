@@ -8,3 +8,57 @@ body, html {
 * {
     box-sizing: border-box;
 }
+
+#top-bar {
+    border: 3px solid green;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+#top-bar div{
+    margin-right: 10px;
+}
+
+header {
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 50px;
+    margin-top: 15px;
+}
+
+#header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    border: 3px solid purple;
+    display: flex;
+}
+
+nav div {
+    margin-right: 10px;
+    justify-content: space-between;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;   
+}
+
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 640px 1fr 1fr;
+    grid-template-rows: 335px 335px;
+    grid-template-areas:
+        "big story1 story2"
+        "big story3 story4"
+        ;
+}
+
+#big {
+    grid-area: big;
+}
