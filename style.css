@@ -23,6 +23,7 @@ body, html {
 }
 
 header {
+    width: 100%;
     border: 3px solid red;
     display: flex;
     justify-content: space-between;
@@ -61,4 +62,25 @@ main {
 
 #big {
     grid-area: big;
+    border: 3px solid turquoise;
+}
+
+#story-1 {
+    border: 3px solid pink;
+}
+
+#story-2 {
+    border: 3px solid maroon;
+}
+
+#story-3 {
+    border: 3px solid slateblue;
+}
+
+#story-4 {
+    border: 3px solid burlywood;
+}
+
+img {
+    width: 100%;
 }
